@@ -259,6 +259,11 @@ small {
 	right: 500px;
 }
 /*SHOP*/
+.shop {
+	background-color: #f6f7fa
+	max-height: 632px;
+	max-width: 1800px
+}
 .gray-btn {
 	max-width: 78px;
 	height: 24px;
@@ -287,4 +292,21 @@ small {
 	margin-top: 20px;
 	margin-right: 490px;
 	margin-bottom: 150px;
+}
+.container-white {
+	max-height: 382px;
+	max-width: 570px;
+	background-color: #fff;
+	text-align: center;
+}
+.purple-btn {
+	background-color: #bd8cbf;
+	max-width: 152px;
+	height: 47px;
+	text-align: center;
+	padding: 15px 45px;
+	color: #fff;
+	font-size: 13px;
+	border-radius: 10px;
+	text-transform: uppercase;
 }
