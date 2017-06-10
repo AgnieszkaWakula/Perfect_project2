@@ -194,6 +194,10 @@ container {
 }
 .gallery .col1 {
 	background-color: #f5989d;
+	transition: all ease .5s;
+}
+.gallery .col1:hover {
+	background-color: #d898f5;
 }
 .gallery .col2 {
 	background-color: #615f7d;
