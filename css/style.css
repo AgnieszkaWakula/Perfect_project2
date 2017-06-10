@@ -131,9 +131,36 @@ container {
 	width: 100%;
 }
 
-.gallery {
+.slider-cover {
+	width: 100%;
+	height: 40vw;
+	overflow: hidden;
+}
+
+.slider {
 	overflow-x: scroll;
-	margin-bottom: 100px;
+}
+
+.gallery-item {
+    width: 280px;
+    height: 202px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 0;
+    left: 0;
+    margin: auto;
+    padding-bottom: 20px;
+}
+
+.gallery-item .h2-gallery {
+	margin-top: 0;
+}
+
+.gallery {
+	margin-bottom: 20px;
+	margin-left: calc(50vw - 600px);
+    width: 100vw;
 }
 
 .gallery [class*="col-"] {
@@ -152,7 +179,7 @@ container {
 .gallery img {
 	float:left;
 	margin: 0;
-	min-height: 280px;
+	height: 20vw;
 	display: block;
 	object-fit: cover;
 }
@@ -162,7 +189,7 @@ container {
 	position: relative;
 	color: #fff;
 	overflow: hidden;
-	min-height: 280px;
+	height: 20vw;
 	text-align: left;
 }
 .gallery .col1 {
@@ -194,8 +221,10 @@ container {
 	color: #fff;
 	text-decoration: none;
 	font-size: 14px;
-	margin-left: 10px;
 	font-weight: 800;
+	position: absolute;
+    left: 0;
+    bottom: 0;
 }
 .gallery .fa {
 	margin-left: 30px;
