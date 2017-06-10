@@ -306,13 +306,14 @@ small {
 
 /*SHOP*/
 .shop {
-	background-color: #f6f7fa
+	background-color: #e1e1e1
 	min-height: 500px;
 	padding-top: 115px;
 	padding-bottom: 115px;
 }
 .border-left {
 	padding: 20px 30px;
+	position: relative;
 }
 .gray-btn {
 	max-width: 78px;
@@ -323,8 +324,10 @@ small {
 	color: #fff;
 	font-size: 13px;
 	line-height: 24px;
-	border-radius: 5px;
+	border-radius: 3px;
 	text-transform: uppercase;
+	position: absolute;
+	left: 0;
 }
 .purple-btn {
 	background-color: #bd8cbf;
@@ -335,8 +338,10 @@ small {
 	color: #fff;
 	font-size: 13px;
 	line-height: 24px;
-	border-radius: 5px;
+	border-radius: 3px;
 	text-transform: uppercase;
+	position: absolute;
+	left: 0;
 }
 .green-btn {
 	background-color: #82ca9c;
@@ -347,8 +352,10 @@ small {
 	color: #fff;
 	font-size: 13px;
 	line-height: 47px;
-	border-radius: 10px;
+	border-radius: 3px;
 	text-transform: uppercase;
+	position: absolute;
+	left: 0;
 }
 .shop .social-media {
 	font-size: 25px;
@@ -356,9 +363,12 @@ small {
 	margin-top: 20px;
 	margin-right: 490px;
 	margin-bottom: 150px;
+	height: 30px;
+	width: 70px;
 }
 .border-right {
 	background-color: #fff;
 	padding: 20px 30px;
 	box-shadow: 1px 0px 80px 3px rgba(71,69,71,1);
+	position: relative;
 }
